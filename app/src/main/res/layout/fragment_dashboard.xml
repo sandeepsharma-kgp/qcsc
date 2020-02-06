@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/SJMRegent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SJMRegent" />
+        <RadioButton
+            android:id="@+id/SorinBicarbon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SorinBicarbon"/>
+        <RadioButton
+            android:id="@+id/SJMHPMasters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SJMHPMasters"/>
+        <RadioButton
+            android:id="@+id/TTKChitraStd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TTKChitraStd"/>
+        <RadioButton
+            android:id="@+id/SJMEPIC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SJMEPIC"/>
+        <RadioButton
+            android:id="@+id/PERIMAGNA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PERIMAGNA"/>
+        <RadioButton
+            android:id="@+id/PERIMOUNT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PERIMOUNT"/>
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
